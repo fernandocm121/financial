@@ -31,11 +31,11 @@ export class Entries {
   
   @OneToOne(type => Category)
   @JoinColumn()
-  category: Category;
+  category_id: Category;
 
   @OneToOne(type => User)
   @JoinColumn()
-  user: User;
+  user_id: User;
 
   // @Column({ name: 'user_id', type: 'bigint' })
   // userId!: string;

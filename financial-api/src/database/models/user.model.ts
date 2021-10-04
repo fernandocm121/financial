@@ -15,6 +15,6 @@ export class User {
   @Column({ name: 'password', type: 'varchar', select: false })
   password!: string;
 
-  @OneToMany(() => Entries, (entries) => entries.entry)
-  entries: Entry[];
+  @OneToMany(() => Entries, (entries) => entries.id)
+  entries: Entries[];
 }

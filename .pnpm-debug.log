@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "Error",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"C:\\Projetos\\Projeto Financeiro\\financial\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "Error: No package.json (or package.yaml, or package.json5) was found in \"C:\\Projetos\\Projeto Financeiro\\financial\".\n    at readProjectManifest (C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:40586:13)\n    at async Object.readProjectManifestOnly (C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:40590:28)\n    at async Object.readProjectManifestOnly (C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:40809:24)\n    at async Object.handler (C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:122895:24)\n    at async C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:126966:20\n    at async run (C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:126941:34)\n    at async runPnpm (C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:127151:5)\n    at async C:\\Users\\Pichau\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:127143:7"
+    }
+  }
+}
